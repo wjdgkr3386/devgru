@@ -1,30 +1,24 @@
-## 부동산 한눈에 보기
-사용자가 매물을 등록하고, 지도와 리스트로 매물을 확인하며, 즐겨찾기 및 날씨/뉴스 같은 부가정보까지 제공하는 종합 부동산 플랫폼
-
-## 팀장 : 이민규
-- 김정학, 김기원, 김승식, 김태관
+# 개발자 ERP 시스템
+## 팀장 : 정선희
+- 김정학, 김명균, 박소민, 신근수, 안임마누엘, 채병훈
 
 ## 개발 기간
-- 2025.09.12 ~ 2025.09.25 (2주)
+- 2025.11 ~ 2025.12 (4주)
 
 ## 기술 스택
-- 프레임워크: Django
-- 언어: Python, JavaScript, HTML, CSS
-- DB: MySQL, SQLite3(개발)
-- UI 라이브러리: Bootstrap
-- 도구/개발환경: PyCham, Git/GitHub
-- API: 날씨(OpenWeather), 지도(Kakao Maps), 뉴스(News API), 지오코딩(Geocoding API)
+- 프레임워크: Spring Framework
+- 언어: Java, JavaScript, HTML, CSS
+- DB: Oracle
+- UI 라이브러리: jQuery
 
 ## 주요 기능
-1. 매물 등록: 매물의 이름, 주소, 가격 등 데이터를 받아 저장합니다
-2. 매물 목록: 등록된 매물을 꺼내 리스트에 보여주거나 지도에 마커를 찍어 보여줍니다
+- 개발자·프리랜서 정보 관리 – 개발자 및 프리랜서의 기본 정보와 이력 관리
+- 프로젝트 정보 관리 – 프로젝트 개발 기간, 인원, 일정 관리
 
 ## 내가 맡은 역할
-- Kakao Maps API를 연동하여 지역별 매물 위치를 직관적으로 확인 가능하도록 구현
-- News API를 활용해 실시간 부동산 뉴스를 제공
-- 즐겨찾기
-- 마이페이지
-- 매물 목록, 등록 페이지 기능 구현
+- 개발자 정보 관리 페이지 기능 구현
+- 프로젝트 관리 페이지 기능 구현
+- 자료 수집 및 테스트
 
 ## 클래스 다이어그램
 ![메인 화면](./screenshots/다이어그램.png)<br><hr><br>
@@ -63,10 +57,3 @@ BM부동산 웹 프로젝트는 총 5명의 팀원이 협업하며 진행되었�
 파일(예: .pyc, __pycache__, .env)을 무시하도록 .gitignore 파일을 만들고
 팀원 모두가 이를 공유했습니다. 
 이를 통해 불필요한 파일로 인한 병합 충돌을 근본적으로 해결했습니다.
-
-## 설치 코드 (가상환경에서)
-pip install -r requirements.txt  
-python manage.py makemigrations  
-python manage.py migrate  
-## 실행 코드 (가상환경에서)
-python manage.py runserver
