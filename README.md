@@ -12,6 +12,7 @@
 - 언어: Java, JavaScript, HTML, CSS
 - DB: Oracle
 - UI 라이브러리: jQuery
+- 빌드 도구: Gradle
 
 ## 주요 기능
 - 개발자·프리랜서 정보 관리 – 개발자 및 프리랜서의 기본 정보와 이력 관리
