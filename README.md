@@ -8,7 +8,7 @@
 - 2023.11 ~ 2023.12 (4주)
 
 ## 기술 스택
-- 프레임워크: Spring Framework
+- 프레임워크: Spring Boot
 - 언어: Java, JavaScript, HTML, CSS
 - DB: Oracle
 - UI 라이브러리: jQuery
